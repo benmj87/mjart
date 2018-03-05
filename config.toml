@@ -31,7 +31,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Mike Johnston**, Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		bio = "**Mike Johnston**<br /> landscape artist and musician"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = ""
@@ -52,8 +52,8 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Bio"
+		content = "Mike Johnston originally trained at the London College of Music and achieved both graduate and fellowship diplomas in violin. He also plays cello and guitar, and regularly performs both individually and with colleagues as part of a band. He has had a career in teaching both music and Design Technology and was recently a senior manager in the education department of a local authority. He has been painting for 20 years.<br />Mike currently lives in Croydon and is married with three children and two grandchildren.<br /><br />Mike’s original inspiration to paint came from the water colours painted by his wife’s grandfather in the 1920s and 30’s. William W. J. Calthrop originally trained as an architect (several of his drawings are held in a collection at the Victoria and Albert Museum in London) and was also an exceptional watercolour artist.<br /><br/>About 20 years ago Mike started his artistic journey – though already was drawing regularly.  He is currently specialising in landscape and urban paintings, using watercolours.  Influenced by early 20th century British painters such as Paul Nash, Eric Ravilious and Winifred Knights, the modern artist Simon Palmer and American artists such as Edward Hopper Thomas Benton and Andrew Wyeth he has gradually developed a distinct style that is realistic though with has surreal  undertones. His paintings are often landscapes with a sense of movement and many of them depict lines of trees and patterning in fields.  The landscapes are often of northern France, where he has a cottage, and rural Derbyshire.<br /><br/>In 2006 as part of promotion of South London Heathland (a rare and disappearing environment) one of Mike’s paintings was selected and reproduced as a postcard sponsored by Croydon Heritage.<br /><br/>Mike is just starting to exhibit, and in 2016 his paintings were shown as part of the Bexley Arts Trust summer exhibition with great success.<br /><br/>Paintings are for sale, and in time there are likely to be a range of limited prints available."
 
 
 	[params.portfolio]
@@ -105,10 +105,10 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		content = "Please use the contact form below if you wish to discuss any of my work."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "39.7889055,-120.5443524"
+		gmaps_address = "Croydon,London"
 		address = [
 			"Croydon",
 			"London",
@@ -141,15 +141,20 @@ paginate = 10
 [[menu.main]]
 	name = "Home"
 	url  = "/"
-	weight = 10
+	weight = 1
+
+[[menu.main]]
+	name = "Recent work"
+	url  = "http://localhost:1313/#two"
+	weight = 2
 
 [[menu.main]]
 	name = "Shop"
 	url  = "https://etsy.com"
-	weight = 0
+	weight = 3
 	
 [[menu.main]]
 	name = "Contact"
 	url  = "http://localhost:1313/#contact-form"
 	absURL = "/#contact-form"
-	weight = 0
+	weight = 4
